@@ -1,0 +1,58 @@
+h1 {
+  background-color: orange;
+  color: white;
+}
+
+section {
+  background-color: orange;
+}
+
+p {
+  color: green;
+}
+
+main {}
+
+.randomNumber {
+  background-color: green;
+  color: darkblue;
+  float: left;
+}
+
+.wrapper-scoreTracker {
+  float: left;
+  background-color: lightblue;
+}
+
+.wins .loses {
+  color: green;
+}
+
+.wrapper-crystals {
+  clear: both;
+}
+
+.crystals {
+  float: left;
+  width: 80px;
+  height: 80px;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+}
+
+.wrapper-counter {
+  clear: both;
+}
+
+.totalScore-Text {
+  background-color: teal;
+  color: white;
+}
+
+.totalScore-Counter {
+  background-color: teal;
+  color: white;
+}
