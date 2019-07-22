@@ -4,16 +4,75 @@
 <head>
   <meta charset="utf-8">
   <title>GT-Hw-04-GemGame</title>
-  <link rel="stylesheet" href="/assets/reset.css">
-  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="stylesheet" href="assets/reset.css">
+  <link rel="stylesheet" href="assets/style.css">
 
-  <script type="text/javascript" src="/assets/script.js">
 
-  </script>
 </head>
 
 <body>
+  <h1>Crystals Collector!</h1>
+  <section>
+    <p>
+      You will be given a random number at the start of the game.
+    </p>
+    <p>
+      There will be four crystals below. By clicking on a
+      crystal you will add a specific amount of points to your
+      total score.
+    </p>
+    <p>
+      You win the game by matching your total score to random
+      number, you lose the game if your total score goes above
+      the random number.
+    </p>
+    <p>
+      The value of each crystal is hidden from you until you
+      click on it.
+    </p>
+    <p>
+      Each time when the game starts, the game will change the
+      values of each crystal
+    </p>
+  </section>
+  <main>
+    <div class="randomNumber">
+      XX
+    </div>
+    <div class="wrapper-scoreTracker">
+      <div class="wins">
+        Wins:
+      </div>
+      <div class="loses">
+        Loses:
+      </div>
 
+    </div>
+    <div class="wrapper-crystals">
+      <div class="crystals">
+        <img src="assets/images/gem-blue.png" alt="gem-blue">
+      </div>
+      <div class="crystals">
+        <img src="assets/images/gem-green.png" alt="gem-green">
+      </div>
+      <div class="crystals">
+        <img src="assets/images/gem-yellow.png" alt="gem-yellow">
+      </div>
+      <div class="crystals">
+        <img src="assets/images/gem-red.png" alt="gem-red">
+      </div>
+    </div>
+
+    <div class="wrapper-counter">
+      <div class="totalScore-Text">
+        Your total score is:
+      </div>
+      <div class="totalScore-Counter">
+        XX
+      </div>
+
+    </div>
+  </main>
 </body>
 
 </html>
