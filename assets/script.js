@@ -14,11 +14,17 @@ window.onload = function() {
       return;
     }else if (totalScore == randomNumb){
       victories++;
-      document.querySeletor(".wins").innerHTML = ("Wins: " + victories);
+      document.querySelector("#winsTotal").innerHTML = victories;
+      alert("You Won!");
+      initGame();
     }else{
       loses++;
+      document.querySelector("#losesTotal").innerHTML = loses;
+      alert("You Lost :(");
+      initGame();
     }
   }
+
 
   function onClick(gem){
     totalScore += gem;
@@ -28,6 +34,7 @@ window.onload = function() {
 
 
   function initGame() {
+    totalScore = 0;
     randomNumb = Math.floor(Math.random() * 30 + 20);
     document.querySelector(".randomNumber").innerHTML = randomNumb;
     document.querySelector(".totalScore-Counter").innerHTML = totalScore;
