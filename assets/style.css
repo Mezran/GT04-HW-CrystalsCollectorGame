@@ -1,41 +1,97 @@
+html{
+  background-image:url("images/images.jpg");
+  font-family:'Oswald', sans-serif;
+  font-weight:700;
+  font-stretch: semi-expanded;
+  font-size: 22px;
+  box-sizing:border-box;
+}
+
+body {
+  width: 450px;
+  margin: 10px;
+}
+
 h1 {
   background-color: orange;
   color: white;
+  padding: 20px 4px;
+  width: 300px;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  font-family:'Oswald', sans-serif;
 }
 
 section {
-  background-color: orange;
+  background-color: #ffe6b3;
+  margin: 10px 0px;
 }
 
 p {
+  padding: 10px 4px;
   color: green;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+#p_top {
+  padding-top: 20px;
+}
+
+#p_bot {
+  padding-bottom: 80px;
 }
 
 main {}
 
 .randomNumber {
-  background-color: green;
-  color: darkblue;
+  background-color: #00cc66;
+  color: #005791;
   float: left;
+  width: 200px;
+  height: 85px;
+  font-size: 30px;
+  box-sizing: border-box;
+  padding: 4px;
 }
 
 .wrapper-scoreTracker {
   float: left;
-  background-color: lightblue;
+  background-color: #00ffff;
+  width: 95px;
+  height: 85px;
+  position: relative;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
-.wins .loses {
+.wins {
   color: green;
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loses {
+  color: green;
+  margin: 0;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .wrapper-crystals {
   clear: both;
+  margin-bottom: 10px;
 }
 
 .crystals {
+  margin-right: 10px;
   float: left;
-  width: 80px;
-  height: 80px;
+  margin-bottom: 10px;
 }
 
 img {
@@ -45,14 +101,23 @@ img {
 
 .wrapper-counter {
   clear: both;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .totalScore-Text {
+  width: 220px;
   background-color: teal;
   color: white;
+  margin-bottom: 10px;
+  padding: 4px;
 }
 
 .totalScore-Counter {
+  width: 220px;
+  height: 75px;
+  font-size: 30px;
   background-color: teal;
   color: white;
+  padding: 4px;
 }
