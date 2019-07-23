@@ -60,27 +60,40 @@ main {}
   background-color: #00ffff;
   width: 95px;
   height: 85px;
+  display:flex;
+  flex-flow: row wrap;
   position: relative;
   margin-left: 10px;
   margin-bottom: 10px;
 }
 
 .wins {
+  display: flex;
   color: green;
-  margin: 0;
+  order: 1;
   position: absolute;
-  top: 35%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .loses {
+  display: flex;
   color: green;
-  margin: 0;
+  order: 2;
   position: absolute;
-  top: 65%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+ #winsTotal{
+  order: 1;
+  padding: 1px 0px 0px 2px;
+}
+#losesTotal{
+ order: 1;
+ padding: 1px 0px 0px 2px;
 }
 
 .wrapper-crystals {
